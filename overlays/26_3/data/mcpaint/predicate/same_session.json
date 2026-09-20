@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:int_value_check",
+  "value": {
+    "score": "mcpaint.session",
+    "target": {
+      "target": "this",
+      "type": "context"
+    },
+    "type": "score"
+  },
+  "test": {
+    "max": {
+      "score": "mcpaint.session",
+      "target": {
+        "name": "#reference",
+        "type": "fixed"
+      },
+      "type": "score"
+    },
+    "min": {
+      "score": "mcpaint.session",
+      "target": {
+        "name": "#reference",
+        "type": "fixed"
+      },
+      "type": "score"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:int_value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#studio.u"
+        },
+        "score": "mcpaint.calc"
+      },
+      "test": {
+        "min": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mcpaint.ui.u1"
+        },
+        "max": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mcpaint.ui.u2"
+        }
+      }
+    },
+    {
+      "type": "minecraft:int_value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#studio.v"
+        },
+        "score": "mcpaint.calc"
+      },
+      "test": {
+        "min": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mcpaint.ui.v1"
+        },
+        "max": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mcpaint.ui.v2"
+        }
+      }
+    },
+    {
+      "type": "minecraft:int_value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#studio.ui_element.max_layer"
+        },
+        "score": "mcpaint.calc"
+      },
+      "test": {
+        "min": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mcpaint.ui.layer"
+        },
+        "max": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mcpaint.ui.layer"
+        }
+      }
+    }
+  ]
+}

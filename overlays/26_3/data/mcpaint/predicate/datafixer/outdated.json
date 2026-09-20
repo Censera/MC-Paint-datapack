@@ -1,0 +1,24 @@
+{
+  "type": "inverted",
+  "term": {
+    "type": "minecraft:int_value_check",
+    "value": {
+      "score": "eroxified2.datafixer_version",
+      "target": {
+        "target": "this",
+        "type": "context"
+      },
+      "type": "score"
+    },
+    "test": {
+      "min": {
+        "score": "eroxified2.datafixer_version",
+        "target": {
+          "name": "mcpaint",
+          "type": "fixed"
+        },
+        "type": "score"
+      }
+    }
+  }
+}

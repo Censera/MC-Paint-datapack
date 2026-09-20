@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "items": [
+          "minecraft:shears",
+          "minecraft:white_wool",
+          "minecraft:deepslate",
+          "minecraft:observer"
+        ]
+      }
+    }
+  }
+}
